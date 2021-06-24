@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+}
+#navbar ul{
+    display:flex;
+
+}
+#navbar{
+    position:absolute;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#logo{
+    margin: 10px 15px;
+}
+#logo img{
+    height:95px;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem; 
+    padding: 1px;  
+}
+#navbar ul li a{
+    text-decoration: none;
+    margin: 2px;
+    padding: 3px;
+    border-radius: 6px;
+    color: white;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 695px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('../2.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 700px;
+    top: 0px;
+    z-index: -1;
+    opacity: 0.85;
+
+}
+#home h1{
+    color:white;
+    text-align: center;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+#home p{
+    color:white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.h-primary{
+    font-size: 2.3rem;
+    padding: 12px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.h-secondary{
+    font-size: 2.3rem;
+    padding: 12px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.services-container{
+    /* margin:90px 20px; */
+    z-index: -2;
+    margin-top: 11px;
+}
+ 
+#services{
+    display: flex; 
+    margin: 35px 15px;
+    margin-top: 17px;
+}
+#services .box{
+    border: 2px solid red;
+    padding: 32px;
+    margin: 0.3px 25px;
+    border-radius: 23px;
+    background-color: rgb(246 245 245);
+}
+#services p{
+    font-family: 'Bree Serif',serif;
+}
+#services .box img{
+    height:160px;
+    display: block;
+    margin: auto;
+    
+}
+
+.btn{
+    padding: 6px 20px;
+    background-color: brown;
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    margin:15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+#client-section{
+    height: 344px;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('../section1.webp') no-repeat center center/cover;
+    width: 100%;
+    height: 344px;
+    z-index: -1;
+    opacity: 0.69;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-item{
+    padding: 34px;
+}
+#clients img{
+    height: 110px;
+    width: 120px; 
+}
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    background: url('../c.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 531px;
+    z-index: -1;
+    opacity: 2;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width:100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 0.9rem;
+    background-color: rgb(245, 241, 241);
+}
+#contact-box input{
+    padding:10px;
+}
+
+#contact-box form{
+    width:40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+}
+.footer-class{
+    /* height:300px; */
+    position: relative;
+    z-index: -2;
+    padding: 14px; 
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+     background-color: black;
+    color: white; 
+}
+.center{
+    text-align: center;
+}
