@@ -87,6 +87,11 @@
     font-size: 2.3rem;
     padding: 12px;
     font-family: 'Baloo Bhaina 2', cursive;
+    /* background: linear-gradient(to bottom, rgba(255, 238, 0, 0.5),rgb(252, 213, 41));
+    opacity: 0; */
+}
+.h-secondary:hover{
+    opacity: 1;
 }
 .services-container{
     /* margin:90px 20px; */
@@ -105,6 +110,11 @@
     margin: 0.3px 25px;
     border-radius: 23px;
     background-color: rgb(246 245 245);
+    transition: 0.5s;
+}
+.box:hover{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    background: linear-gradient(to bottom, rgba(255, 238, 0, 0.5),rgb(252, 213, 41));
 }
 #services p{
     font-family: 'Bree Serif',serif;
@@ -113,7 +123,6 @@
     height:160px;
     display: block;
     margin: auto;
-    
 }
 
 .btn{
@@ -200,9 +209,19 @@
     padding-bottom: 0px;
     margin-bottom: 0px;
     text-align: center;
-     background-color: black;
+    background-color: black;
     color: white; 
 }
 .center{
     text-align: center;
+}
+
+#submit_btn{
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+}
+#submit_btn:hover{
+    background: brown;
+    font-weight: bold;
+    color: white;
 }
